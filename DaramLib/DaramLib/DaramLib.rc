@@ -1,0 +1,135 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.hpp"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,2,4,0
+ PRODUCTVERSION 0,2,4,0
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204b0"
+        BEGIN
+            VALUE "CompanyName", "BitDiary, Team 별사탕"
+            VALUE "FileDescription", "Daram Library"
+            VALUE "FileVersion", "0, 2, 4, 0"
+            VALUE "InternalName", "DaramLib"
+            VALUE "LegalCopyright", "Copyright (C) 2008 BitDiary, Team 별사탕 All Right Reserved"
+            VALUE "OriginalFilename", "DaramLib.dll"
+            VALUE "ProductName", "Daram Library"
+            VALUE "ProductVersion", "0, 2, 4, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_START DIALOGEX 0, 0, 267, 146
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "다람 라이브러리 스타트 대화상자"
+FONT 8, "맑은 고딕", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "시작(&S)",IDOK,77,118,50,14
+    PUSHBUTTON      "종료(&X)",IDCANCEL,143,118,50,14
+    CONTROL         "전체화면으로 실행합니다(&F)",IDC_FULLSCREEN_CHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,80,63,107,12
+    CONTROL         102,IDC_DRMLIB_IMAGE,"Static",SS_BITMAP | SS_REALSIZEIMAGE,0,0,267,49
+    CONTROL         "다음부터 이 창을 띄우지 않습니다(&R)",IDC_NOSHOW_CHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,69,104,138,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_DARAMLIB            BITMAP                  "bitmap1.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+IDR_RT_MANIFEST1        RT_MANIFEST             "DaramLib.dll.manifest"
+#endif    // 한국어 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
